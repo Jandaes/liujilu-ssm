@@ -24,3 +24,6 @@ IDEA:[http://blog.csdn.net/zw235345721/article/details/50737549](http://blog.csd
 ## 反向生成代码
 反向生成代码需要解除velocity注释：
 [https://github.com/Jandaes/liujilu-ssm/blob/master/pom.xml#L192](https://github.com/Jandaes/liujilu-ssm/blob/master/pom.xml#L192)
+
+## 访问地址
+[http://localhost:8080/liujilu/](http://localhost:8080/liujilu/)
