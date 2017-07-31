@@ -27,6 +27,10 @@ public class SysUserController {
     @Autowired
     private SysUserService userService;
 
+    /**
+     * 返回到JSP
+     * @return
+     */
     @RequestMapping("index")
 	public ModelAndView index(){
         ModelAndView mv = new ModelAndView("index");
@@ -37,5 +41,21 @@ public class SysUserController {
         }
         mv.addObject("userList",userList);
         return mv;
+    }
+
+    /**
+     * 返回到FreeMarker
+     * @param model
+     * @return
+     */
+    @RequestMapping("/freemarker/index")
+    public String index(Model model){
+        logger.info("进来了Freemarker 处理器");
+        List<SysUser> userList = userService.selectList(new EntityWrapper<SysUser>());
+        for (SysUser user:userList) {
+            System.out.println(user.toString());
+        }
+        model.addAttribute("userList",userList);
+        return "indexs";
     }
 }
