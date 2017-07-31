@@ -1,8 +1,7 @@
 # liujilu-ssm
 Maven + SpringMVC+Spring+MyBatis-Plus+Freemarker 框架实现的一个后台网站
 
-后续集成Freemarker
-
+> 框架支持Freemarker 和  JSP 双View展示（优先找Freemarker）。
 
 ## 如何使用：
 `git clone git@github.com:Jandaes/liujilu-ssm.git`
@@ -24,6 +23,7 @@ IDEA:[http://blog.csdn.net/zw235345721/article/details/50737549](http://blog.csd
 ## 反向生成代码
 反向生成代码需要解除velocity注释：
 [https://github.com/Jandaes/liujilu-ssm/blob/master/pom.xml#L192](https://github.com/Jandaes/liujilu-ssm/blob/master/pom.xml#L192)
+
 
 ## 访问地址
 [http://localhost:8080/liujilu/](http://localhost:8080/liujilu/)
