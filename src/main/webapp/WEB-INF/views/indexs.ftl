@@ -143,6 +143,15 @@
         $("#password").val($(tr).eq(5).text());
         $("#number").val($(tr).eq(6).text());
 
+        //状态
+        var status = $(tr).eq(9).text();
+        //先移除之前的选择、不然会多个selected、不会生效
+        $("#status").find("option").removeAttr("selected");
+        if(status=="正常"){
+            $("#status").find("option[value=1]").attr("selected","selected");
+        }else if(status=="锁定"){
+            $("#status").find("option[value=0]").attr("selected","selected");
+        }
     }
 
 </script>
