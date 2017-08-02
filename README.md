@@ -27,3 +27,7 @@ IDEA:[http://blog.csdn.net/zw235345721/article/details/50737549](http://blog.csd
 
 ## 访问地址
 [http://localhost:8080/liujilu/](http://localhost:8080/liujilu/)
+
+## 博客说明
+详细项目说明、参考博客内容
+[http://blog.csdn.net/janda2011/article/details/76548948](http://blog.csdn.net/janda2011/article/details/76548948)
